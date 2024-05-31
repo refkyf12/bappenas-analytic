@@ -1,0 +1,26 @@
+{
+   "id": "66273a721c56dfb1e9ebb1eb",
+   "name": "EfficientNet-B0 OpenVINO FP32",
+   "version": 1,
+   "creation_date": "2024-04-23T04:34:58.206000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "FP32"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 0.8448275862068966
+   },
+   "size": 16240051,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "MO",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [],
+   "previous_revision_id": "66273a721c56dfb1e9ebb1e9",
+   "previous_trained_revision_id": "66273a721c56dfb1e9ebb1e9",
+   "optimization_methods": []
+}

@@ -1,0 +1,125 @@
+{
+    "type_of_model": "otx_classification",
+    "converter_type": "CLASSIFICATION",
+    "model_parameters": {
+        "multilabel": false,
+        "hierarchical": false,
+        "multihead_class_info": {},
+        "confidence_threshold": 0.5,
+        "labels": {
+            "label_tree": {
+                "type": "tree",
+                "directed": true,
+                "nodes": [],
+                "edges": []
+            },
+            "label_groups": [
+                {
+                    "_id": "662737edd80a6ffbb7e2ee12",
+                    "name": "Classification labels",
+                    "label_ids": [
+                        "662737edd80a6ffbb7e2ee0a",
+                        "662737edd80a6ffbb7e2ee0b",
+                        "662737edd80a6ffbb7e2ee0c",
+                        "662737edd80a6ffbb7e2ee0d",
+                        "662737edd80a6ffbb7e2ee0e",
+                        "662737edd80a6ffbb7e2ee0f"
+                    ],
+                    "relation_type": "EXCLUSIVE"
+                }
+            ],
+            "all_labels": {
+                "662737edd80a6ffbb7e2ee0a": {
+                    "_id": "662737edd80a6ffbb7e2ee0a",
+                    "name": "1",
+                    "color": {
+                        "red": 247,
+                        "green": 218,
+                        "blue": 179,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "CLASSIFICATION",
+                    "creation_date": "2024-04-23T04:24:13.203000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "662737edd80a6ffbb7e2ee0b": {
+                    "_id": "662737edd80a6ffbb7e2ee0b",
+                    "name": "2",
+                    "color": {
+                        "red": 112,
+                        "green": 133,
+                        "blue": 65,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "CLASSIFICATION",
+                    "creation_date": "2024-04-23T04:24:13.203000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "662737edd80a6ffbb7e2ee0c": {
+                    "_id": "662737edd80a6ffbb7e2ee0c",
+                    "name": "3",
+                    "color": {
+                        "red": 157,
+                        "green": 59,
+                        "blue": 26,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "CLASSIFICATION",
+                    "creation_date": "2024-04-23T04:24:13.204000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "662737edd80a6ffbb7e2ee0d": {
+                    "_id": "662737edd80a6ffbb7e2ee0d",
+                    "name": "4",
+                    "color": {
+                        "red": 215,
+                        "green": 188,
+                        "blue": 94,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "CLASSIFICATION",
+                    "creation_date": "2024-04-23T04:24:13.204000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "662737edd80a6ffbb7e2ee0e": {
+                    "_id": "662737edd80a6ffbb7e2ee0e",
+                    "name": "5",
+                    "color": {
+                        "red": 237,
+                        "green": 178,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "CLASSIFICATION",
+                    "creation_date": "2024-04-23T04:24:13.204000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "662737edd80a6ffbb7e2ee0f": {
+                    "_id": "662737edd80a6ffbb7e2ee0f",
+                    "name": "6",
+                    "color": {
+                        "red": 241,
+                        "green": 91,
+                        "blue": 133,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "CLASSIFICATION",
+                    "creation_date": "2024-04-23T04:24:13.204000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                }
+            }
+        }
+    }
+}

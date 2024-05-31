@@ -1,0 +1,102 @@
+{
+   "id": "662737edd80a6ffbb7e2ee03",
+   "name": "All View Bappenas",
+   "creation_time": "2024-04-23T04:24:13.204000+00:00",
+   "creator_id": "refky.f1212@gmail.com",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "662737edd80a6ffbb7e2ee04",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "662737edd80a6ffbb7e2ee07",
+            "title": "Classification task",
+            "task_type": "classification",
+            "labels": [
+               {
+                  "id": "662737edd80a6ffbb7e2ee0a",
+                  "name": "1",
+                  "is_anomalous": false,
+                  "color": "#f7dab3ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "662737edd80a6ffbb7e2ee0b",
+                  "name": "2",
+                  "is_anomalous": false,
+                  "color": "#708541ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "662737edd80a6ffbb7e2ee0c",
+                  "name": "3",
+                  "is_anomalous": false,
+                  "color": "#9d3b1aff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "662737edd80a6ffbb7e2ee0d",
+                  "name": "4",
+                  "is_anomalous": false,
+                  "color": "#d7bc5eff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "662737edd80a6ffbb7e2ee0e",
+                  "name": "5",
+                  "is_anomalous": false,
+                  "color": "#edb200ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "662737edd80a6ffbb7e2ee0f",
+                  "name": "6",
+                  "is_anomalous": false,
+                  "color": "#f15b85ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "662737edd80a6ffbb7e2ee13"
+         }
+      ],
+      "connections": [
+         {
+            "from": "662737edd80a6ffbb7e2ee04",
+            "to": "662737edd80a6ffbb7e2ee07"
+         }
+      ]
+   },
+   "datasets": [
+      {
+         "id": "662737edd80a6ffbb7e2ee10",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2024-04-23T04:24:13.204000+00:00"
+      }
+   ],
+   "thumbnail": "/api/v1/workspaces/65dd9e5ee35125f0daf3f47e/projects/662737edd80a6ffbb7e2ee03/thumbnail",
+   "storage_info": {},
+   "performance": {
+      "score": 0.8448275862068966
+   }
+}
